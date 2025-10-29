@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoリストApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="todoapp">
+        <h1>ToDoApp</h1>
+        <div class="inputform">
+            <form action="" id="js-form">
+                <input type="text" id="js-form-input" placeholder="What will you do?" autocomplete="off">
+            </form>
+            <div class="allbutton">
+                <button id="js-button-submit" type="button">SUBMIT!</button>
+                <button id="js-button-delete" type="button">チェック済アイテムを削除</button>
+            </div>
+            <span id="js-todo-count">Todoアイテム数: 0
+            </span>
+            <div id="todolist">
+                <ul id="todolist-items"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
