@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+
+
+h1 {
+    color: blue;
+    width: 170px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+span {
+    color: #777;
+    height: 20px;
+    padding: 10px 15px;
+    border-top: 1px solid #e6e6e6
+}
+
+.inputform {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.allbutton {
+    display: flex;
+    flex-direction: row;
+}
+
+#js-form-input {
+    width: 500px;
+}
+
+#js-button-submit {
+    width: 180px;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+#js-button-delete {
+    width: 180px;
+    display: inline-block;
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
